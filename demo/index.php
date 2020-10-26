@@ -3,9 +3,9 @@
 
     $iap = new InstagramAutoPilot;
 
-    $accounts = array("design");
-    $tags = array("design", 'development');
-    $comment = "Check out my profile for all the best design resources!";
+    $accounts = array("sarcastic_us", "girlslaying", "learnedfeeds", "inspiredmeme", "memes_you.need", "redditwanderes");
+    $tags = array("wholesomememes", "cutememes", "memes", "lmao", "memesdaily");
+    $comment = "Check out my profile for all the best memes and feel good feeds!";
 
-    $iap->init("ACCOUNT_NAME", "ACCOUNT_PASSWORD", true, true, false, $accounts, $tags, $comment);
+    $iap->init("feelgoodfeeds", "nandakumarpro@007", true, true, false, $accounts, $tags, $comment);
 ?>
